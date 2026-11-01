@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" preserveAspectRatio="xMidYMid slice">
+  <rect width="360" height="180" fill="#f3e2cb"/>
+  <circle cx="276" cy="66" r="54" fill="#f0cfa2"/>
+  <circle cx="276" cy="66" r="34" fill="#e6a56a"/>
+  <rect x="40" y="34" width="70" height="12" rx="6" fill="#fbf1e0"/>
+  <rect x="60" y="24" width="40" height="12" rx="6" fill="#fbf1e0"/>
+  <rect y="108" width="360" height="72" fill="#5f7f86"/>
+  <rect y="132" width="360" height="48" fill="#4f6f77"/>
+  <rect x="236" y="116" width="60" height="5" rx="2.5" fill="#e6a56a" opacity=".8"/>
+  <path d="M0 130 C70 98 150 106 222 128 L222 180 L0 180Z" fill="#7d8a6b"/>
+  <rect y="152" width="360" height="28" fill="#4a2c1d"/>
+  <!-- nhà -->
+  <rect x="66" y="98" width="116" height="54" fill="#fbf7f1"/>
+  <polygon points="54,102 124,58 194,102" fill="#b8895a"/>
+  <rect x="113" y="120" width="22" height="32" rx="2" fill="#6f4a36"/>
+  <rect x="78" y="112" width="22" height="20" rx="2" fill="#e6a56a"/>
+  <rect x="148" y="112" width="22" height="20" rx="2" fill="#e6a56a"/>
+  <!-- dừa -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M286 158 C288 134 292 114 302 94" stroke="#6f4a36" stroke-width="5"/>
+    <path d="M302 94 C284 82 268 86 258 100" stroke="#7d8a6b" stroke-width="5"/>
+    <path d="M302 94 C304 74 320 66 338 72" stroke="#7d8a6b" stroke-width="5"/>
+    <path d="M302 94 C320 90 336 100 342 116" stroke="#7d8a6b" stroke-width="5"/>
+  </g>
+</svg>

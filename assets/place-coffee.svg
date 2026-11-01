@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <g id="b"><ellipse rx="11" ry="16"/><path d="M0 -14 C-6 -5 6 5 0 14" fill="none" stroke="#3a2217" stroke-width="2.2" stroke-linecap="round"/></g>
+  </defs>
+  <rect width="360" height="180" fill="#3a2217"/>
+  <circle cx="180" cy="104" r="84" fill="#4a2c1d"/>
+  <use href="#b" transform="translate(48 40) rotate(-25)" fill="#6f4a36"/>
+  <use href="#b" transform="translate(308 34) rotate(30)" fill="#b8895a"/>
+  <use href="#b" transform="translate(320 128) rotate(-15)" fill="#6f4a36"/>
+  <use href="#b" transform="translate(34 138) rotate(20)" fill="#b8895a"/>
+  <use href="#b" transform="translate(88 92) rotate(40)" fill="#6f4a36" opacity=".7"/>
+  <use href="#b" transform="translate(274 86) rotate(-40)" fill="#6f4a36" opacity=".7"/>
+  <!-- khói -->
+  <g fill="none" stroke="#d9c3a8" stroke-width="5" stroke-linecap="round">
+    <path d="M162 70 C152 58 172 50 162 36"/>
+    <path d="M198 70 C188 58 208 50 198 36"/>
+  </g>
+  <!-- tách -->
+  <path d="M232 98 C260 96 262 134 230 134" fill="none" stroke="#f5ede3" stroke-width="9" stroke-linecap="round"/>
+  <path d="M128 86 H232 V122 C232 146 210 160 180 160 C150 160 128 146 128 122 Z" fill="#f5ede3"/>
+  <ellipse cx="180" cy="86" rx="52" ry="9" fill="#d9c3a8"/>
+  <ellipse cx="180" cy="87" rx="44" ry="6" fill="#6f4a36"/>
+  <ellipse cx="180" cy="163" rx="76" ry="9" fill="#b8895a"/>
+</svg>

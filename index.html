@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f3e2cb">
+  <meta name="description" content="Hoàng Linh – Coffee & Homestay. Liên hệ và đặt phòng Thoai Mai House.">
+  <meta property="og:title" content="Hoàng Linh – Coffee & Homestay">
+  <meta property="og:description" content="Kết nối, trải nghiệm và đặt phòng nhanh chóng.">
+  <meta property="og:image" content="assets/avatar.jpg">
+  <title>Hoàng Linh – Coffee &amp; Homestay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Mulish: font thay thế gần nhất với SVN-Avo; Playfair Display + Dancing Script: font tiêu đề/danh mục phong cách du lịch -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Mulish:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=12">
+</head>
+<body data-version="5">
+  <!-- Bộ icon phẳng tự vẽ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-home" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.2 12 3.8l9 7.4"/><path d="M5.5 9.6V20.5h13V9.6"/><path d="M10 20.5v-5.3a2 2 0 0 1 4 0v5.3"/><path d="M16.5 5.6V4h1.7v3.1"/></g></symbol>
+    <symbol id="i-cup" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10h11v4.6a4.4 4.4 0 0 1-4.4 4.4H9.4A4.4 4.4 0 0 1 5 14.6z"/><path d="M16 11.4h1a2.4 2.4 0 0 1 0 4.8h-1.7"/><path d="M3.5 21.5h14"/><path d="M8.2 3.4c-.9 1 .9 1.8 0 3M12 3.4c-.9 1 .9 1.8 0 3"/></g></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 11.8a5 5 0 0 1 10 0"/><path d="M12 4.2v1.4M5.2 6.4l1 1M18.8 6.4l-1 1"/><path d="M3 15.2c2-1.8 4-1.8 6 0s4 1.8 6 0 4-1.8 6 0"/><path d="M3 19.6c2-1.8 4-1.8 6 0s4 1.8 6 0 4-1.8 6 0"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M12 2a7.2 7.2 0 0 0-7.2 7.2c0 5.3 7.2 12.8 7.2 12.8s7.2-7.5 7.2-12.8A7.2 7.2 0 0 0 12 2zm0 9.8a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+    <symbol id="i-out" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M8.5 7H17v8.5"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="m9.5 5.5 6.5 6.5-6.5 6.5"/></symbol>
+  
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.3 1z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="m4 7.5 8 6 8-6"/></g></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M12 4c-4.6 0-8 3-8 7 0 2.1 1 4 2.6 5.2L6 20l3.4-1.7c.8.2 1.7.3 2.6.3 4.6 0 8-3 8-7s-3.4-7-8-7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><g fill="currentColor"><circle cx="8.5" cy="11.5" r="1.1"/><circle cx="12" cy="11.5" r="1.1"/><circle cx="15.5" cy="11.5" r="1.1"/></g></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><g fill="currentColor"><circle cx="10" cy="8" r="3.6"/><path d="M3.5 19c0-3.3 2.9-5.5 6.5-5.5s6.5 2.2 6.5 5.5z"/></g><path d="M18.5 8v5M16 10.5h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="m9 5.5 6.5 6.5L9 18.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <main class="page">
+
+    <header class="profile">
+      <div class="profile-body">
+        <img class="avatar" src="assets/avatar.jpg" alt="Ảnh đại diện Hoàng Linh" width="132" height="132">
+        <p class="eyebrow">Coffee &amp; Homestay</p>
+        <h1>Hoàng Linh</h1>
+        <div class="location"><svg class="ico"><use href="#i-pin"/></svg> Phan Thiết · Lâm Đồng</div>
+      </div>
+    </header>
+
+    <section class="section" aria-labelledby="contact-title">
+      <div class="section-heading">
+        <span class="section-kicker">Connect with me</span>
+        <h2 id="contact-title">Thông tin liên hệ</h2>
+      </div>
+      <nav class="links" aria-label="Thông tin liên hệ">
+        <a class="row" href="tel:+84943919441" data-kind="tel" data-copy="0943919441"><img class="app" src="assets/ic-phone.svg" alt="" width="54" height="54"><span class="t"><b>Điện thoại</b><small>0943919441</small></span><span class="act c-green"><svg width="18" height="18" fill="currentColor"><use href="#i-phone"/></svg>Liên hệ</span><svg class="cv"><use href="#i-chev"/></svg></a>
+        <a class="row" href="https://zalo.me/0943919441" target="_blank" rel="noopener"><img class="app" src="assets/ic-zalo.png" alt="" width="54" height="54"><span class="t"><b>Zalo</b><small>0943919441</small></span><span class="act c-blue"><svg width="18" height="18"><use href="#i-chat"/></svg>Nhắn tin</span><svg class="cv"><use href="#i-chev"/></svg></a>
+        <a class="row" href="viber://chat?number=%2B84943919441"><img class="app" src="assets/ic-viber.png" alt="" width="54" height="54"><span class="t"><b>Viber</b><small>0943919441</small></span><span class="act c-violet"><svg width="18" height="18"><use href="#i-chat"/></svg>Nhắn tin</span><svg class="cv"><use href="#i-chev"/></svg></a>
+        <a class="row" href="mailto:linhmkey@gmail.com" data-kind="mail" data-copy="linhmkey@gmail.com"><img class="app" src="assets/ic-gmail.png" alt="" width="54" height="54"><span class="t"><b>Email</b><small>linhmkey@gmail.com</small></span><span class="act c-blue"><svg width="18" height="18"><use href="#i-mail"/></svg>Soạn thư</span><svg class="cv"><use href="#i-chev"/></svg></a>
+        <a class="row" href="https://facebook.com/linhmkey" target="_blank" rel="noopener"><img class="app" src="assets/ic-facebook.png" alt="" width="54" height="54"><span class="t"><b>Facebook</b><small>facebook.com/linhmkey</small></span><span class="act c-blue"><svg width="18" height="18" fill="currentColor"><use href="#i-user"/></svg>Kết bạn</span><svg class="cv"><use href="#i-chev"/></svg></a>
+      </nav>
+    </section>
+
+    <section class="section" aria-labelledby="places-title">
+      <div class="section-heading">
+        <span class="section-kicker">My places</span>
+        <h2 id="places-title">Các địa điểm của tôi</h2>
+      </div>
+      <div class="place-grid">
+        <article class="place-card">
+          <div class="place-body">
+            <span class="chip coffee"><svg class="ico"><use href="#i-cup"/></svg></span>
+            <div class="place-content">
+              <h3>Tiệm Cà Phê Đường Chân Trời</h3>
+              <p>Cà phê · Ẩm thực</p>
+            </div>
+          </div>
+          <a href="https://www.facebook.com/tiemcapheduongchantroi" target="_blank" rel="noopener" class="pill white"><img src="assets/ic-facebook.png" alt="" width="22" height="22"><span>Xem trang Facebook</span><svg class="cv" width="16" height="16"><use href="#i-chev"/></svg></a>
+        </article>
+        <article class="place-card">
+          <div class="place-body">
+            <span class="chip stay"><svg class="ico"><use href="#i-home"/></svg></span>
+            <div class="place-content">
+              <h3>Thoai Mai House</h3>
+              <p>Homestay · Du lịch</p>
+            </div>
+          </div>
+          <a href="https://www.facebook.com/thoaimaihouse" target="_blank" rel="noopener" class="pill white"><img src="assets/ic-facebook.png" alt="" width="22" height="22"><span>Xem trang Facebook</span><svg class="cv" width="16" height="16"><use href="#i-chev"/></svg></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section booking-section" aria-labelledby="booking-title">
+      <div class="section-heading">
+        <span class="section-kicker">Book your stay</span>
+        <h2 id="booking-title">Đặt phòng</h2>
+        <p class="booking-note">Chọn nơi nghỉ và kênh đặt phòng phù hợp</p>
+      </div>
+
+      <div class="booking-list">
+        <article class="stay-card">
+          <div class="thumb"><img src="assets/stay-house.jpg?v=5" alt="Không gian sân chung có bàn gỗ và cây xanh tại Thoai Mai House" width="1280" height="720" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/place-home.svg'"></div>
+          <div class="stay-body">
+            <div class="stay-info">
+              <span class="chip stay"><svg class="ico"><use href="#i-home"/></svg></span>
+              <span class="stay-copy">
+                <strong>Thoai Mai House</strong>
+                <small>Phan Thiết · Homestay</small>
+              </span>
+            </div>
+            <div class="stay-actions">
+              <a class="pill blue" href="https://www.booking.com/hotel/vn/thoai-mai-house-phan-thiet.vi.html" target="_blank" rel="noopener"><img src="assets/ic-booking.svg" alt="" width="22" height="22"><span>Booking.com</span><svg class="cv" width="16" height="16"><use href="#i-chev"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="stay-card">
+          <div class="thumb"><img src="assets/stay-sea.jpg?v=5" alt="Sân hiên view biển với hàng dừa và bãi cát" width="1280" height="720" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='assets/stay-sea.svg'"></div>
+          <div class="stay-body">
+            <div class="stay-info">
+              <span class="chip sea"><svg class="ico"><use href="#i-wave"/></svg></span>
+              <span class="stay-copy">
+                <strong>Thoai Mai House – Căn nguyên căn view biển</strong>
+                <small>Không gian riêng tư, hướng biển</small>
+              </span>
+            </div>
+            <div class="stay-actions two">
+              <a class="pill blue" href="https://www.booking.com/hotel/vn/thoai-mai-house-phan-thiet-nguyen-can-view-bien.vi.html" target="_blank" rel="noopener"><img src="assets/ic-booking.svg" alt="" width="22" height="22"><span>Booking.com</span><svg class="cv" width="16" height="16"><use href="#i-chev"/></svg></a>
+              <a class="pill white" href="https://www.agoda.com/thoai-mai-house-phan-thiet-nguyen-can-view-bien/hotel/phan-thiet-vn.html?cid=1844104&amp;ds=oAfvB1XDReKC6XhU" target="_blank" rel="noopener"><span class="agoda-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span>Agoda</span><svg class="cv" width="16" height="16"><use href="#i-chev"/></svg></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="map-title">
+      <div class="section-heading">
+        <span class="section-kicker">Find us</span>
+        <h2 id="map-title">Bản đồ</h2>
+        <p class="booking-note">Chọn địa điểm để xem vị trí và chỉ đường</p>
+      </div>
+      <div class="map-card">
+        <div class="map-tabs" role="tablist" aria-label="Chọn địa điểm trên bản đồ">
+          <button class="map-tab active" type="button" role="tab" aria-selected="true" data-map="0"><svg class="ico"><use href="#i-cup"/></svg><span>Cà phê</span></button>
+          <button class="map-tab" type="button" role="tab" aria-selected="false" data-map="1"><svg class="ico"><use href="#i-home"/></svg><span>Thoai Mai House</span></button>
+          <button class="map-tab" type="button" role="tab" aria-selected="false" data-map="2"><svg class="ico"><use href="#i-wave"/></svg><span>Căn view biển</span></button>
+        </div>
+        <div class="map-frame">
+          <iframe id="map-frame" title="Bản đồ Tiệm Cà Phê Đường Chân Trời" src="https://www.google.com/maps?q=10.9195558,108.1095249&amp;z=17&amp;hl=vi&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+        <div class="map-info">
+          <span class="chip coffee" id="map-chip"><svg class="ico"><use href="#i-cup"/></svg></span>
+          <span class="stay-copy">
+            <strong id="map-name">Tiệm Cà Phê Đường Chân Trời</strong>
+            <small id="map-sub">Cà phê · Phan Thiết</small>
+          </span>
+        </div>
+        <div class="map-actions">
+          <a id="map-open" class="pill dark" href="https://maps.app.goo.gl/zKN1n9P2eEZxecHb9" target="_blank" rel="noopener"><svg class="ico"><use href="#i-pin"/></svg><span>Mở Google Maps</span></a>
+          <a id="map-route" class="pill white" href="https://www.google.com/maps/dir/?api=1&amp;destination=10.9195558,108.1095249" target="_blank" rel="noopener"><svg class="ico"><use href="#i-out"/></svg><span>Chỉ đường</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="share-title">
+      <div class="section-heading">
+        <span class="section-kicker">Share my card</span>
+        <h2 id="share-title">Chia sẻ danh thiếp</h2>
+      </div>
+      <div class="share-card">
+        <div class="qr-box"><div id="qrcode" aria-label="Mã QR của trang danh thiếp" role="img"></div></div>
+        <div class="share-actions">
+          <button class="pill dark" type="button" id="share-btn"><svg class="ico"><use href="#i-out"/></svg><span>Chia sẻ danh thiếp</span></button>
+          <button class="pill white" type="button" id="vcard-btn"><svg class="ico"><use href="#i-user"/></svg><span>Lưu vào danh bạ</span></button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="year">2026</span> Hoàng Linh</small>
+    </footer>
+  </main>
+
+  <dialog id="contact-dialog" class="dialog">
+    <div class="dialog-inner">
+      <h2 id="dialog-title">Thông tin liên hệ</h2>
+      <p id="dialog-value" class="dialog-value"></p>
+      <div class="dialog-actions">
+        <a id="dialog-open" class="dialog-primary" href="#">Tiếp tục</a>
+        <button id="copy-contact" class="dialog-secondary" type="button">Sao chép</button>
+        <button id="close-dialog" class="dialog-secondary" type="button">Đóng</button>
+      </div>
+      <p class="dialog-hint">Nếu ứng dụng không mở, bạn có thể sao chép thông tin và thực hiện thủ công.</p>
+    </div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
+  <script src="script.js?v=6" defer></script>
+</body>
+</html>

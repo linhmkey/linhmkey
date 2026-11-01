@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <g id="bean"><ellipse rx="13" ry="19"/><path d="M0 -17 C-7 -6 7 6 0 17" fill="none" stroke="#f3e2cb" stroke-width="2.5" stroke-linecap="round"/></g>
+  </defs>
+  <rect width="760" height="300" fill="#f3e2cb"/>
+  <circle cx="560" cy="130" r="96" fill="#f0cfa2"/>
+  <circle cx="560" cy="130" r="60" fill="#e6a56a"/>
+  <!-- mây -->
+  <rect x="90" y="46" width="96" height="16" rx="8" fill="#fbf1e0"/>
+  <rect x="120" y="34" width="56" height="16" rx="8" fill="#fbf1e0"/>
+  <rect x="300" y="86" width="80" height="14" rx="7" fill="#fbf1e0"/>
+  <rect x="640" y="48" width="70" height="14" rx="7" fill="#fbf1e0"/>
+  <!-- hạt cà phê bay -->
+  <use href="#bean" transform="translate(70 120) rotate(-28)" fill="#b8895a" opacity=".5"/>
+  <use href="#bean" transform="translate(250 52) rotate(22)" fill="#6f4a36" opacity=".35"/>
+  <use href="#bean" transform="translate(405 128) rotate(-12)" fill="#b8895a" opacity=".45"/>
+  <use href="#bean" transform="translate(705 118) rotate(30)" fill="#6f4a36" opacity=".35"/>
+  <!-- biển -->
+  <rect y="170" width="760" height="130" fill="#6c8d94"/>
+  <rect y="198" width="760" height="102" fill="#5f7f86"/>
+  <rect y="230" width="760" height="70" fill="#4f6f77"/>
+  <rect x="520" y="178" width="84" height="6" rx="3" fill="#e6a56a" opacity=".85"/>
+  <rect x="534" y="190" width="56" height="5" rx="2.5" fill="#e6a56a" opacity=".7"/>
+  <rect x="546" y="204" width="34" height="5" rx="2.5" fill="#e6a56a" opacity=".55"/>
+  <rect x="300" y="212" width="60" height="4" rx="2" fill="#7fa0a6"/>
+  <rect x="380" y="240" width="80" height="4" rx="2" fill="#6c8d94"/>
+  <rect x="40" y="226" width="70" height="4" rx="2" fill="#7fa0a6"/>
+  <!-- đất -->
+  <path d="M0 258 C120 236 230 248 340 256 C470 266 610 242 760 254 L760 300 L0 300Z" fill="#2b1a12"/>
+  <path d="M0 280 C150 266 300 284 460 277 C600 270 700 280 760 272 L760 300 L0 300Z" fill="#4a2c1d"/>
+  <!-- homestay -->
+  <g transform="translate(120 190)">
+    <rect x="0" y="30" width="100" height="52" fill="#fbf7f1"/>
+    <polygon points="-12,32 50,-4 112,32" fill="#b8895a"/>
+    <rect x="42" y="50" width="16" height="32" rx="2" fill="#6f4a36"/>
+    <rect x="10" y="44" width="20" height="18" rx="2" fill="#e6a56a"/>
+    <rect x="70" y="44" width="20" height="18" rx="2" fill="#e6a56a"/>
+  </g>
+  <!-- dừa -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M642 272 C648 242 652 216 664 190" stroke="#6f4a36" stroke-width="7"/>
+    <path d="M664 190 C642 174 622 180 606 198" stroke="#7d8a6b" stroke-width="6"/>
+    <path d="M664 190 C666 164 686 152 710 160" stroke="#7d8a6b" stroke-width="6"/>
+    <path d="M664 190 C686 184 706 198 716 218" stroke="#7d8a6b" stroke-width="6"/>
+    <path d="M664 190 C648 166 626 160 604 166" stroke="#7d8a6b" stroke-width="6"/>
+  </g>
+  <!-- cây cà phê -->
+  <g fill="#7d8a6b"><ellipse cx="40" cy="268" rx="26" ry="12"/><ellipse cx="86" cy="274" rx="22" ry="10"/></g>
+  <g fill="#b8895a"><circle cx="30" cy="266" r="4"/><circle cx="44" cy="270" r="4"/><circle cx="86" cy="272" r="4"/></g>
+</svg>
