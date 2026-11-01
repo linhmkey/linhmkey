@@ -82,7 +82,7 @@
   });
 
   // ---------- QR Code + chia sẻ danh thiếp ----------
-  var pageUrl = "https://linhmkey.vercel.app";
+  var pageUrl = "https://linhmkey86.vercel.app";
   var qrBox = doc.getElementById("qrcode");
   function buildQR() {
     if (typeof QRCode === "undefined") return false;
